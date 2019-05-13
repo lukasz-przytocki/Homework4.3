@@ -9,4 +9,8 @@ public class Triangle {
         sideC = C;
     }
 
+    double trianglePerimeter(){
+        return sideA + sideB + sideC;
+    }
+
 }

@@ -4,4 +4,8 @@ public class Square {
     Square(double side){
         sideA = side;
     }
+
+    double calculateArea(){
+        return Math.pow(sideA,2);
+    }
 }

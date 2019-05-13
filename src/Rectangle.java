@@ -6,4 +6,8 @@ public class Rectangle {
         sideA = A;
         sideB = B;
     }
+
+    double calculatePermiter(){
+        return sideA + sideB;
+    }
 }

@@ -4,4 +4,8 @@ public class Circle {
     Circle (double diam){
         diameter = diam;
     }
+
+    double calculateArea(){
+        return  Math.PI * Math.pow(diameter,2);
+    }
 }
